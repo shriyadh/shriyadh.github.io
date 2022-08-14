@@ -325,9 +325,20 @@
 
 				<div class="inner">
 
+					<!--  HTML EMAIL  Form -->
 					<section>
-						<form action="https://getform.io/f/d86c662b-fb67-4cb8-96c2-7b4abd1529fa" method="post"
+						<h4>Please feel free to reach out to me on my email or drop in a message!</h4>
+						<form action="https://formsubmit.co/shriyadh0306@gmail.com" method="POST"
 							enctype="multipart/form-data" target="_blank" id="wpform">
+							<!-- HoneyPot -->
+							<input type="text" name="_honey" style="display: none;">
+							<!-- Disable Captcha -->
+							<input type="hidden" name="_captcha" value="false">
+
+							<!-- Success page -->
+							<input type="hidden" name="_next" value="https://shriyadh.github.io/success.html">
+
+
 							Name:<br>
 							<input type="text" name="name"><br>
 							E-mail:<br>
